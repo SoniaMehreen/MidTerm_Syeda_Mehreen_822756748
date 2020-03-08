@@ -26,8 +26,8 @@ public class Main {
 
         XSSFSheet sheet1 = wb.getSheetAt(0);
 
-        sheet1.createRow(0).createCell(0).setCellValue("User1");
-        sheet1.getRow(0).createCell(1).setCellValue("Password1");
+        sheet1.createRow(0).createCell(0).setCellValue("New.Username1");
+        sheet1.getRow(0).createCell(1).setCellValue("New.Password1");
         FileOutputStream fout = new FileOutputStream(src);
         wb.write(fout);
 
